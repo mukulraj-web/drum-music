@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: peru;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.declare {
+    font-weight: 900;
+    font-family:sans-serif;
+    font-size: 60px;
+    padding-top: 100px;
+}
+.player {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.dicebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+   
+}
+#player1,#player2 {
+    font-size: 30px;
+    padding-left: 10px;
+}
+#box1,#box2 {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+   
+    margin: 5px 5px 5px 5px;
+}
+.diceImage1 {
+ background-image: url(dice1.png);
+ object-fit: contain;
+}
+.diceImage2 {
+    background-image: url(dice2.png);
+    object-fit: contain;
+   }.diceImage3 {
+    background-image: url(dice3.png);
+    object-fit: contain;
+   }.diceImage4 {
+    background-image: url(dice4.png);
+    object-fit: contain;
+   }.diceImage5 {
+    background-image: url(dice5.png);
+    object-fit: contain;
+   }.diceImage6 {
+    background-image: url(dice6.png);
+    object-fit: contain;
+   }
